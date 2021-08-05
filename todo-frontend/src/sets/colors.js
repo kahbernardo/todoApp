@@ -11,7 +11,7 @@ const colors = {
     blue: "#050f66",
     green: "#248000",
     yellow: "#b0a400",
-  }
+  },
   white: "#ffff",
   black: "#000"
 }
