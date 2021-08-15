@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="container">
       <Todo />
-      <About />
+      {/* <About /> */}
     </div>
   );
 }
