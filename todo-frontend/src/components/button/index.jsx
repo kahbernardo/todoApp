@@ -1,7 +1,7 @@
 import React from 'react'
 import * as ST from './styles'
 
-const Button = () => {
+const Button = ({ title, height, width, action }) => {
 
   return (
     <div>
