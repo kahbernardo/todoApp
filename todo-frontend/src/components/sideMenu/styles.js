@@ -22,5 +22,4 @@ export const MenuCustomButtons = styled.div`
   width:100%;
   height:fit-content;
   min-height:50px;
-  background-color:black
 `;

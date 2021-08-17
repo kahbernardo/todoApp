@@ -1,12 +1,15 @@
 import React from 'react'
 import * as ST from './styles'
 
-const Button = ({ title, height, width, action }) => {
+const Button = ({ title, height, width, action, icon }) => {
 
   return (
-    <div>
-      <h1>To Do</h1>
-    </div>
+    <ST.ButtonContainer>
+      <ST.Icon
+        src={icon}
+      />
+      {/* <ST.Text>{"Botao"}</ST.Text> */}
+    </ST.ButtonContainer>
   )
 }
 
