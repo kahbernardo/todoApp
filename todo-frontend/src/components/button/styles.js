@@ -12,12 +12,13 @@ export const ButtonContainer = styled.button`
   border:none;
   cursor:pointer;
   justify-content:center;
+  margin:5px 0;
 `;
 export const Text = styled.p`
   font-size:20px;
   color:${props => props.color || theme.colors.clean.blue}
 `;
 export const Icon = styled.img` 
-  width:90%;
-  height:50px;
+  width:40px;
+  height:40px;
 `;

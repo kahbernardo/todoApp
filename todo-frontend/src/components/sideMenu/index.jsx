@@ -15,7 +15,12 @@ const sideMenu = () => {
           />
         </ST.MenuMainButton >
         <ST.MenuCustomButtons >
-          <Button />
+          <Button
+            icon={icons.bell}
+          />
+          <Button
+            icon={icons.mail}
+          />
         </ST.MenuCustomButtons >
       </ST.MenuContainer >
     </div>

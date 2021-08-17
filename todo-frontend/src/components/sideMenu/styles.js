@@ -22,4 +22,5 @@ export const MenuCustomButtons = styled.div`
   width:100%;
   height:fit-content;
   min-height:50px;
+  flex-direction:column;
 `;
