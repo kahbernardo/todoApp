@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Todo from './todo/todo'
-import About from './about/about'
+import Todo from './views/todo'
+import About from './views/about'
 
 function App() {
   return (
     <div className="container">
       <Todo />
-      <About />
+      {/* <About /> */}
     </div>
   );
 }
