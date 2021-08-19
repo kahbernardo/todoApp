@@ -1,11 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import * as ST from './styles'
+import SideMenu from '../../components/sideMenu';
 
 const About = () => {
 
   return (
-    <div>
+    <ST.Container>
+      <SideMenu />
       <h1>Sobre</h1>
-    </div>
+    </ST.Container>
   )
 }
 

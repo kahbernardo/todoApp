@@ -1,13 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Todo from './views/todo'
-import About from './views/about'
+import Router from './routes/routes.jsx'
 
 function App() {
   return (
     <div className="container">
-      <Todo />
-      {/* <About /> */}
+      <Router />
     </div>
   );
 }
