@@ -3,9 +3,9 @@ import theme from '../../sets'
 
 export const InputContainer = styled.div`
   display:flex;
-  height:fit-content;
   min-height:40px;
-  width:fit-content;
+  height:${props => props.altura || "fit-content"};;
+  width:${props => props.largura || "fit-content"};
   margin:10px;
   position:relative;
   padding:5px 0 0 0;
