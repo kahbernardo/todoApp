@@ -8,6 +8,7 @@ const Input = ({ change, placeholder, title, largura, altura, mascara, value }) 
     change && change(content)
   }
 
+
   return (
     <ST.InputContainer
       largura={largura}

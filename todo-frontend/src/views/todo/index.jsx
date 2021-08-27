@@ -8,7 +8,9 @@ const ToDo = () => {
   return (
     <ST.Container>
       <SideMenu />
-      <Input />
+      <Input
+
+      />
     </ST.Container>
   )
 }

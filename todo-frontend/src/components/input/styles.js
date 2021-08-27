@@ -11,6 +11,7 @@ export const InputContainer = styled.div`
   padding:5px 0 0 0;
   flex-direction:column;
   border-radius:5px;
+  justify-content:center;
 `;
 export const InputTitle = styled.div`
   display:flex;
