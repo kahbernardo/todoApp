@@ -15,6 +15,7 @@ export const PersonBackground = styled.div`
   background-color:${props => props.background || "#424242"};
   border-bottom-left-radius:30px;
   border-bottom-right-radius:30px;
+  justify-content:center;
 `;
 export const Col = styled.div`
   display:flex;
