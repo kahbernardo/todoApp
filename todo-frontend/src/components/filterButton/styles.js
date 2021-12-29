@@ -3,20 +3,22 @@ import theme from '../../sets'
 
 export const ButtonContainer = styled.button`
   display:flex;
-  height:${props => props.altura || "100%"};;
-  width:${props => props.largura || "80px"};
   min-width:50px;
+  width:${props => props.width || "100%"};
+  height:${props => props.height || "60px"};
   color: ${theme.colors.clean.blue};
   background-color:${props => props.background || "#ffff"};
-  min-height:60px;
+  min-height:50px;
   border:none;
   cursor:pointer;
   justify-content:center;
-  align-items:center;
-  margin:${props => props.margem || "none"};
-  border-radius:10px;
+  margin:5px 0;
 `;
 export const Text = styled.p`
-  font-size:50px;
-  color:${props => props.color || theme.colors.clean.red}
+  font-size:20px;
+  color:${props => props.color || theme.colors.clean.blue}
+`;
+export const Icon = styled.img` 
+  width:40px;
+  height:40px;
 `;

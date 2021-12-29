@@ -1,6 +1,6 @@
 import React from 'react'
 import * as ST from './styles'
-import Button from '../button'
+import Button from '../filterButton'
 import icons from '../../assets/images/icons'
 import { Link } from 'react-router-dom'
 

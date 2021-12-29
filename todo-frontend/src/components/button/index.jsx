@@ -1,14 +1,16 @@
 import React from 'react'
 import * as ST from './styles'
 
-const Button = ({ title, height, width, action, icon }) => {
+const Button = ({ title, altura, largura, action, icon, margem }) => {
 
   return (
-    <ST.ButtonContainer>
-      <ST.Icon
-        src={icon}
-      />
-      {/* <ST.Text>{"Botao"}</ST.Text> */}
+    <ST.ButtonContainer
+      altura={altura}
+      largura={largura}
+      onClick={action}
+      margem={margem}
+    >
+      <ST.Text>{title}</ST.Text>
     </ST.ButtonContainer>
   )
 }
