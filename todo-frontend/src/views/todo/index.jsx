@@ -22,7 +22,7 @@ const ToDo = () => {
             <Button
               action={dale}
               largura={"355px"}
-              altura={"53px"}
+              altura={"58px"}
               margem={"0 10px 0 5px"}
               title={"+"}
             />
